@@ -15,6 +15,10 @@ body {
     height: 100vh;
 }
 
+#logo-img {
+    display: none;
+}
+
 #jumbotron {
     display: flex; 
     justify-content: center;
