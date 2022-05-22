@@ -1,0 +1,75 @@
+body {
+    font-family: 'Mukta', sans-serif;
+}
+
+#body-main {
+    display: flex;
+    flex-direction: column; 
+    width: 100%
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#jumbotron {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+#title-jumbotron {
+    font-size: 60px;
+    text-align: "center";
+    color: #2d81c1;
+}
+
+#carousel-row {
+    margin-top: 30px;
+    display: flex; 
+    flex-direction: row;
+    justify-content: center; 
+    align-content: center;
+}
+
+@media (max-width: 800px) {
+    #carousel-row {
+      flex-direction: column;
+    }
+  }
+
+
+  #cta-body {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+ }
+
+ #cta-input { 
+     height: 50px;
+     width: 300px;
+     border-color: #2d81c1; 
+     border-width: 2px;
+     border-style: solid;
+     border-radius: 5px;
+     padding-left: 15px;  
+ }
+
+ #cta-button {
+     display: flex;
+     color: white;
+     align-items: center;
+     justify-content: center; 
+     height: 55px;
+     width: 100px; 
+     background-color: #2d81c1;
+     border-radius: 5px;
+     margin-left: 5px;
+     border: 0;
+ }

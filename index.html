@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSM - Your Online Community</title>
+    <link rel="stylesheet" href="index.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;400&display=swap" rel="stylesheet">
+    <script type="module" src="main.js"></script> 
+   </head>
+<body>
+    <div id="logo"><img src ="images/JSM.svg" /></div>
+    <div id="body-main">
+        <div id="jumbotron">
+            <h1 id="title-jumbotron">Welcome To The Private Jewish Social Network.</h1>
+        </div>
+        <div id="cta-body">
+            <input id="cta-input" type="text" placeholder="email@email.com"></input>
+            <button id="cta-button">Get Notified</button>
+        </div>
+        <div id="about" style="margin-top: 180px;">
+            <h1 style="text-align: center; color: #2d81c1;">What Do We Stand For?</h1>
+            <div id="carousel-row">
+                <carousel-com name="Privacy When You Need It Most" text="Religion, belief, and identity are your - and only your - business. Converse with others freely, without the fear of judgement." icon="lock-icon"></carousel-com>
+                <carousel-com name="People And Communities" text="Find and converse with individuals or whole communities, be part of conversations and create real change." icon="people-icon"></carousel-com>
+                <carousel-com name="Support and Wellbeing" text="Support or be supported through our platform's unique structure and social networking abilities, built specifically for the Jewish world." icon="support-icon"></carousel-com>
+            </div>
+        </div>
+        <div id="contact" style="margin-top: 100px; width: 100%;">
+            <contact-com></contact-com>
+        </div>
+    </div> 
+   
+    <script src="components/contact-button.js"></script>
+    <script src="components/carousel.js"></script>
+    <script src="components/contact.js"></script>
+</body>
+</html>
