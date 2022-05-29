@@ -28,7 +28,9 @@ class ContactButton extends HTMLElement {
         this.shadowRoot.getElementById("contact-button").innerText = this.getAttribute("name")
         this.shadowRoot.getElementById("contact-button").style.backgroundColor = this.getAttribute("color")
         this.shadowRoot.getElementById("contact-button").style.backgroundImage = this.getAttribute("image")
-        this.shadowRoot.getElementById("contact-button").onclick(() => window.open("https://www.instagram.com/thejewishsocialmedia/"))
+        this.shadowRoot.getElementById("contact-button").addEventListener("click", () => {
+            window.open("https://www.instagram.com/thejewishsocialmedia/")
+        })
     }
 }
 
